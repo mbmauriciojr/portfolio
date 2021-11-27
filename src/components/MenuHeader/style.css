@@ -1,4 +1,9 @@
-* {
-  padding: 0;
-  margin: 0;
+header {
+  background-color: #0A0A0A;
+  color: whitesmoke;
+}
+
+.header-menu-links > a {
+  color: white;
+  text-decoration: none;
 }

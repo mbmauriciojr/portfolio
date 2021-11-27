@@ -1,11 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import './style.css';
 
 const MenuHeader = () => {
-  const text = 'Home';
+  const userName = 'Marcelo Maurício';
 
   return (
     <header>
-      {text}
+      <h1>{userName}</h1>
+      <nav className="header-menu-links">
+        <Link to="/">Home</Link>
+        <Link to="/sobre">Sobre</Link>
+        <Link to="/portfolio">Portfólio</Link>
+      </nav>
     </header>
   );
 };
